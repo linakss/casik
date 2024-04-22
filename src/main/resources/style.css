@@ -1,0 +1,31 @@
+
+.backfon{
+    -fx-font-family: "Berold";
+    -fx-background-color: linear-gradient(to bottom left, #312b2e,#7C7C7C);
+}
+
+.btn{
+    -fx-font-family: "Berold";
+    -fx-background-radius: 20px;
+    -fx-background-color: none;
+    -fx-border-color: rgba(145, 219, 227, 0.25);
+    -fx-border-width: 3px;
+    -fx-border-style: solid;
+    -fx-border-radius: 20px;
+}
+.label {
+    -fx-font-family: "Berold";
+}
+#label {
+    -fx-font-family: "Berold";
+}
+
+
+/*
+#FB8B24 - оранжевый
+#383D3B - темный серый с зеленцой
+#312b2e - почти черный
+#7C7C7C - светлый серый
+#92DCE5 - нежный голубой
+#52DEE5 - яркий голубой
+ */
