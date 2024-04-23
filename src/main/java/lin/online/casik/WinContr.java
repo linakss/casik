@@ -1,15 +1,19 @@
 package lin.online.casik;
 
-import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
-import javafx.stage.Modality;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.stage.Stage;
 
-import java.io.IOException;
+import java.util.ResourceBundle;
 
-public class WinContr  {
+public class WinContr {
+    @FXML
+    private Button btnGoHome;
+    @FXML
+    void btnGoHome(ActionEvent event) {
 
+        Stage stage = (Stage) btnGoHome.getScene().getWindow();
+        stage.close();
+    }
 
 }

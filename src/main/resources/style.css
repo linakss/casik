@@ -1,23 +1,23 @@
 
 .backfon{
-    -fx-font-family: "Berold";
-    -fx-background-color: linear-gradient(to bottom left, #312b2e,#7C7C7C);
+    -fx-background-color: #191A21;
 }
 
 .btn{
-    -fx-font-family: "Berold";
     -fx-background-radius: 20px;
-    -fx-background-color: none;
-    -fx-border-color: rgba(145, 219, 227, 0.25);
-    -fx-border-width: 3px;
-    -fx-border-style: solid;
+    -fx-background-color: linear-gradient(to bottom left, #fb8b24,#92dce5);
+    -fx-border-style: dashed;
     -fx-border-radius: 20px;
+    -fx-border-width: 1px;
+    -fx-border-color: #ffff;
 }
-.label {
-    -fx-font-family: "Berold";
-}
-#label {
-    -fx-font-family: "Berold";
+.numbers {
+    -fx-background-color: #91DBE370;
+    -fx-border-style: dashed;
+    -fx-border-radius: 50%;
+    -fx-border-width: 1px;
+    -fx-border-color: #ffff;
+    -fx-background-radius: 50%;
 }
 
 
